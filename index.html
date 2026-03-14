@@ -1,197 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Cash Note – Private Offline Expense Manager</title>
-
-<style>
-
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-}
-
-body{
-background:#f6f8fb;
-color:#222;
-line-height:1.6;
-}
-
-header{
-background:linear-gradient(135deg,#0062B1,#3ea0ff);
-color:white;
-padding:80px 20px;
-text-align:center;
-}
-
-header h1{
-font-size:48px;
-margin-bottom:15px;
-}
-
-header p{
-font-size:18px;
-opacity:.9;
-max-width:600px;
-margin:auto;
-}
-
-.play-btn{
-margin-top:30px;
-display:inline-block;
-background:white;
-color:#0062B1;
-padding:14px 28px;
-border-radius:8px;
-font-weight:bold;
-text-decoration:none;
-box-shadow:0 5px 15px rgba(0,0,0,.15);
-}
-
-.play-btn:hover{
-transform:translateY(-2px);
-}
-
-section{
-padding:70px 20px;
-max-width:1100px;
-margin:auto;
-}
-
-.section-title{
-text-align:center;
-margin-bottom:50px;
-}
-
-.section-title h2{
-font-size:34px;
-margin-bottom:10px;
-}
-
-.features{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:25px;
-}
-
-.feature{
-background:white;
-padding:25px;
-border-radius:12px;
-box-shadow:0 6px 20px rgba(0,0,0,.08);
-}
-
-.feature h3{
-margin-bottom:10px;
-color:#0062B1;
-}
-
-.screenshots{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-gap:35px;
-}
-
-.phone{
-background:white;
-padding:15px;
-border-radius:20px;
-box-shadow:0 8px 25px rgba(0,0,0,.1);
-text-align:center;
-}
-
-.phone img{
-width:100%;
-border-radius:14px;
-aspect-ratio:9/16;
-object-fit:cover;
-background:#ddd;
-}
-
-.phone p{
-margin-top:12px;
-font-size:14px;
-}
-
-.permissions{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
-gap:20px;
-}
-
-.permission{
-background:white;
-padding:20px;
-border-radius:12px;
-box-shadow:0 6px 18px rgba(0,0,0,.08);
-}
-
-.contact{
-text-align:center;
-}
-
-.contact a{
-display:inline-block;
-background:#0062B1;
-color:white;
-padding:14px 26px;
-border-radius:8px;
-text-decoration:none;
-font-weight:600;
-margin-top:15px;
-}
-
-footer{
-text-align:center;
-padding:40px;
-font-size:14px;
-color:#666;
-}
-
-@media(max-width:600px){
-
-header h1{
-font-size:36px;
-}
-
-.section-title h2{
-font-size:28px;
-}
-
-}
-
-</style>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cash Note</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+<nav>
+<div class="nav-container">
+<div class="logo">Cash Note</div>
 
-<h1>Cash Note</h1>
+<div class="nav-links">
+<a href="index.html">Home</a>
+<a href="walkthrough.html">Walkthrough</a>
+<a href="privacy.html">Privacy</a>
+<a href="mailto:apps.mtkf@gmail.com">Contact</a>
+</div>
+</div>
+</nav>
+
+<div class="hero">
+
+<h1>Private Offline Expense Manager</h1>
+
 <p>
-A modern, private, and fully offline expense manager.  
-Track expenses, split bills, manage accounts and set reminders — all without ads, tracking, or servers.
+Cash Note helps you track expenses, split bills, manage accounts and set reminders while keeping your financial data completely private.
 </p>
 
 <a class="play-btn" href="#">
 Google Play – Coming Soon
 </a>
 
-</header>
+</div>
 
 <section>
 
 <div class="section-title">
 <h2>About Cash Note</h2>
-<p>
-Cash Note is built with privacy and simplicity in mind.  
-Your financial data stays on your device. The app works fully offline and never sends your information to any server.
-</p>
 </div>
+
+<p style="text-align:center;max-width:700px;margin:auto">
+Cash Note is designed with privacy first principles.  
+Your financial information stays on your device.  
+No servers, no tracking, no ads.  
+Everything works offline with optional Google Drive backup.
+</p>
 
 </section>
 
@@ -203,178 +59,54 @@ Your financial data stays on your device. The app works fully offline and never 
 
 <div class="features">
 
-<div class="feature">
+<div class="card">
 <h3>Expense Tracking</h3>
-<p>
-Quickly record income and expenses with a clean and modern interface.
-</p>
+<p>Quickly add and manage income and expenses.</p>
 </div>
 
-<div class="feature">
-<h3>Split Expenses</h3>
-<p>
-Split bills with friends or family and keep track of balances easily.
-</p>
+<div class="card">
+<h3>Split Bills</h3>
+<p>Easily split expenses with friends and track balances.</p>
 </div>
 
-<div class="feature">
-<h3>Account Management</h3>
-<p>
-Track money across multiple accounts like wallet, bank, or custom accounts.
-</p>
+<div class="card">
+<h3>Accounts</h3>
+<p>Manage wallet, bank accounts or custom accounts.</p>
 </div>
 
-<div class="feature">
-<h3>Reminder System</h3>
-<p>
-Never miss bills, payments or debts with built-in reminders.
-</p>
+<div class="card">
+<h3>Reminders</h3>
+<p>Never miss bills or payments again.</p>
 </div>
 
-<div class="feature">
+<div class="card">
 <h3>Google Drive Backup</h3>
-<p>
-Optional cloud backup to your personal Google Drive for safety.
-</p>
+<p>Optional cloud backup to your personal drive.</p>
 </div>
 
-<div class="feature">
+<div class="card">
 <h3>Offline First</h3>
-<p>
-Works completely offline. Internet is required only for cloud backup.
-</p>
+<p>Works completely offline without internet.</p>
 </div>
 
-<div class="feature">
+<div class="card">
 <h3>No Ads</h3>
-<p>
-Cash Note is completely ad-free for a clean experience.
-</p>
+<p>Enjoy a clean and distraction free experience.</p>
 </div>
 
-<div class="feature">
+<div class="card">
 <h3>Always Free</h3>
-<p>
-No subscriptions, no hidden costs. Cash Note will remain free.
-</p>
+<p>No subscriptions and no hidden costs.</p>
 </div>
 
 </div>
-
-</section>
-
-<section>
-
-<div class="section-title">
-<h2>App Walkthrough</h2>
-<p>Simple and intuitive design for everyday finance tracking.</p>
-</div>
-
-<div class="screenshots">
-
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Dashboard overview of your accounts and balances.</p>
-</div>
-
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Add expenses quickly with a minimal interface.</p>
-</div>
-
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Split expenses and track shared balances.</p>
-</div>
-
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Reminder system for bills, payments and debts.</p>
-</div>
-
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Backup settings with optional Google Drive support.</p>
-</div>
-
-</div>
-
-</section>
-
-<section>
-
-<div class="section-title">
-<h2>Privacy First</h2>
-<p>
-Cash Note is designed to respect your privacy.
-</p>
-</div>
-
-<p style="text-align:center;max-width:700px;margin:auto;">
-The app is completely serverless. Your financial data is stored locally on your device.  
-If cloud backup is enabled, encrypted backup files are stored only in your personal Google Drive account.
-</p>
-
-</section>
-
-<section>
-
-<div class="section-title">
-<h2>Permissions Explained</h2>
-</div>
-
-<div class="permissions">
-
-<div class="permission">
-<h3>Notifications</h3>
-<p>
-Used for reminder alerts and optional auto backup notifications. Can be disabled anytime.
-</p>
-</div>
-
-<div class="permission">
-<h3>Google Calendar</h3>
-<p>
-Used only if calendar reminders are enabled to add or remove reminder events.
-</p>
-</div>
-
-<div class="permission">
-<h3>Storage Access</h3>
-<p>
-Used only to store local backup files in a dedicated app folder.
-</p>
-</div>
-
-<div class="permission">
-<h3>Google Account</h3>
-<p>
-Required only for optional Google Drive backup. The app can be used without signing in.
-</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="contact">
-
-<div class="section-title">
-<h2>Contact</h2>
-<p>Questions, suggestions or feedback?</p>
-</div>
-
-<a href="mailto:apps.mtkf@gmail.com">
-Contact Developer
-</a>
 
 </section>
 
 <footer>
 
 <p>
-© 2026 Cash Note  
-Private • Offline • Ad-Free
+© 2026 Cash Note • Private • Offline • Ad Free
 </p>
 
 </footer>
