@@ -1,115 +1,132 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cash Note</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Note - Pocket Manager</title>
+    <meta name="description" content="Offline expense tracker with reminders, split bills & smart accounts. Simple. Private. Always Free.">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/fevicon.png">
 </head>
-
 <body>
 
-<nav>
-<div class="nav-container">
-<div class="logo">Cash Note</div>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Cash Note Logo">
+                Cash Note
+            </a>
+            
+            <div class="nav-controls">
+                <button class="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="walkthrough.html">Walkthrough</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <button class="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
 
-<div class="nav-links">
-<a href="index.html">Home</a>
-<a href="walkthrough.html">Walkthrough</a>
-<a href="privacy.html">Privacy</a>
-<a href="mailto:apps.mtkf@gmail.com">Contact</a>
-</div>
-</div>
-</nav>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Simple. Private. Always Free.</h1>
+                    <p>Offline expense tracker with reminders, split bills & smart accounts. Everything works fully offline, with optional Google Drive backup for your safety.</p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary"><i class="fa-brands fa-google-play"></i> Get it on Play Store</a>
+                        <a href="walkthrough.html" class="btn btn-secondary">Explore Features <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="hero-banner">
+                    <!-- Using a custom landing image -->
+                    <img src="assets/land.png" alt="Cash Note App Interface">
+                </div>
+            </div>
+        </section>
 
-<div class="hero">
+        <!-- Features Grid -->
+        <section class="container" id="features">
+            <h2 style="text-align: center; margin-bottom: 3rem; font-size: 2.5rem;">Why Choose Cash Note?</h2>
+            
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-wallet"></i></div>
+                    <h3>Smart Expense Tracking</h3>
+                    <p>Record income and expenses quickly with a clean and modern interface. Manage money across wallets, bank accounts, or custom accounts.</p>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3>Split Expenses Easily</h3>
+                    <p>Split bills with friends, roommates, or family and quickly track balances or debts directly within the app.</p>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-bell"></i></div>
+                    <h3>Reminder System</h3>
+                    <p>Never miss a payment. Set reminders for bills, debts, and custom events. Integrates optionally with Google Calendar.</p>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                    <h3>Secure Backup</h3>
+                    <p>Protect your data with optional Google Drive backup or local on-device backup. Your data never leaves your device unless you choose so.</p>
+                </div>
+                
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3>Privacy First</h3>
+                    <p>No servers. No ads. No tracking. No analytics. Cash Note works fully offline without needing an active internet connection.</p>
+                </div>
+                
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-gem"></i></div>
+                    <h3>Always Free</h3>
+                    <p>Cash Note is completely free to use and will remain free forever. No subscriptions, and no hidden costs.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<h1>Private Offline Expense Manager</h1>
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="Cash Note Logo">
+                Cash Note
+            </div>
+            
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="walkthrough.html">App Walkthrough</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            
+            <p class="copyright">&copy; 2026 Cash Note. All rights reserved.</p>
+        </div>
+    </footer>
 
-<p>
-Cash Note helps you track expenses, split bills, manage accounts and set reminders while keeping your financial data completely private.
-</p>
-
-<a class="play-btn" href="#">
-Google Play – Coming Soon
-</a>
-
-</div>
-
-<section>
-
-<div class="section-title">
-<h2>About Cash Note</h2>
-</div>
-
-<p style="text-align:center;max-width:700px;margin:auto">
-Cash Note is designed with privacy first principles.  
-Your financial information stays on your device.  
-No servers, no tracking, no ads.  
-Everything works offline with optional Google Drive backup.
-</p>
-
-</section>
-
-<section>
-
-<div class="section-title">
-<h2>Features</h2>
-</div>
-
-<div class="features">
-
-<div class="card">
-<h3>Expense Tracking</h3>
-<p>Quickly add and manage income and expenses.</p>
-</div>
-
-<div class="card">
-<h3>Split Bills</h3>
-<p>Easily split expenses with friends and track balances.</p>
-</div>
-
-<div class="card">
-<h3>Accounts</h3>
-<p>Manage wallet, bank accounts or custom accounts.</p>
-</div>
-
-<div class="card">
-<h3>Reminders</h3>
-<p>Never miss bills or payments again.</p>
-</div>
-
-<div class="card">
-<h3>Google Drive Backup</h3>
-<p>Optional cloud backup to your personal drive.</p>
-</div>
-
-<div class="card">
-<h3>Offline First</h3>
-<p>Works completely offline without internet.</p>
-</div>
-
-<div class="card">
-<h3>No Ads</h3>
-<p>Enjoy a clean and distraction free experience.</p>
-</div>
-
-<div class="card">
-<h3>Always Free</h3>
-<p>No subscriptions and no hidden costs.</p>
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>
-© 2026 Cash Note • Private • Offline • Ad Free
-</p>
-
-</footer>
-
+    <script src="js/main.js"></script>
 </body>
 </html>

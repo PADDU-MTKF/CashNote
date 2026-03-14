@@ -1,78 +1,147 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy Policy - Cash Note</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Cash Note</title>
+    <meta name="description" content="Privacy Policy for Cash Note app. Learn how we protect your data.">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/fevicon.png">
 </head>
-
 <body>
 
-<nav>
-<div class="nav-container">
-<div class="logo">Cash Note</div>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Cash Note Logo">
+                Cash Note
+            </a>
+            
+            <div class="nav-controls">
+                <button class="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="walkthrough.html">Walkthrough</a>
+                <a href="privacy.html" class="active">Privacy Policy</a>
+                <button class="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
 
-<div class="nav-links">
-<a href="index.html">Home</a>
-<a href="walkthrough.html">Walkthrough</a>
-<a href="privacy.html">Privacy</a>
-<a href="mailto:apps.mtkf@gmail.com">Contact</a>
-</div>
-</div>
-</nav>
+    <main>
+        <section class="container">
+            <div class="page-header">
+                <h1>Privacy Policy</h1>
+                <p style="color: var(--text-muted); font-size: 1.1rem;">Last updated: March 2026</p>
+            </div>
 
-<section>
+            <div class="policy-content">
+                <p><strong>Cash Note</strong> is designed with a strong focus on user privacy. This Privacy Policy explains how the app handles data and permissions.</p>
 
-<div class="section-title">
-<h2>Privacy Policy</h2>
-</div>
+                <h2>1. Data Collection</h2>
+                <p>Cash Note does not collect, store, or transmit any personal data to external servers. The application is completely serverless and operates locally on the user's device. All financial information entered in the app remains stored locally on the device.</p>
 
-<p>
-Cash Note does not collect, store or transmit personal user data.
-</p>
+                <h2>2. Server Usage</h2>
+                <p>Cash Note does not use any backend servers. No user data is sent to, stored on, or processed by any developer-controlled server. The application functions completely offline. Internet access is required only if the user enables optional Google Drive backup.</p>
 
-<p>
-The app is completely serverless and works offline. Financial data is stored only on the user's device.
-</p>
+                <h2>3. Google Account Access</h2>
+                <p>Signing into a Google account is optional. Users may use the app fully without signing in. If a user chooses to sign in, the authentication is handled through Google Sign-In. This is used only to allow the user to store backups in their own Google Drive.</p>
 
-<p>
-Optional Google Drive backup allows users to store backup files in their own Google Drive account.
-</p>
+                <h2>4. Google Drive Backup</h2>
+                <p>Cash Note provides an optional feature that allows users to back up their app data to their personal Google Drive account. Important points:</p>
+                <ul>
+                    <li>Backup is optional</li>
+                    <li>Data is stored only in the user's Google Drive</li>
+                    <li>The developer does not have access to this data</li>
+                    <li>No other files in Google Drive are accessed</li>
+                </ul>
+                <p>Google Drive is used only for:</p>
+                <ul>
+                    <li>Creating backup files</li>
+                    <li>Restoring backup files</li>
+                </ul>
 
-<p>
-Permissions requested:
-</p>
+                <h2>5. Local Storage Access</h2>
+                <p>The app may request storage permission to create local backups. Storage access is limited to a dedicated application folder used for storing backup files. Cash Note does not access other files on the user's device.</p>
 
-<ul>
+                <h2>6. Notifications</h2>
+                <p>Notification permission is requested to provide:</p>
+                <ul>
+                    <li>Reminder notifications</li>
+                    <li>Automatic backup notifications</li>
+                </ul>
+                <p>Notifications can be disabled by the user at any time through the app settings or device settings.</p>
 
-<li>Notifications – for reminders and backup alerts</li>
+                <h2>7. Google Calendar Integration</h2>
+                <p>Google Calendar access is optional and only used if the user enables calendar reminders. This permission allows the app to:</p>
+                <ul>
+                    <li>Add reminder events</li>
+                    <li>Remove reminder events</li>
+                </ul>
+                <p>No other calendar data is accessed. Users can disable this feature anytime.</p>
 
-<li>Google Calendar – optional reminder events</li>
+                <h2>8. Offline Operation</h2>
+                <p>Cash Note is designed to function completely offline. Internet access is only required if the user chooses to enable cloud backup using Google Drive.</p>
 
-<li>Storage – used only for local backup files</li>
+                <h2>9. Third-Party Services</h2>
+                <p>Cash Note uses the following Google services:</p>
+                <ul>
+                    <li>Google Sign-In</li>
+                    <li>Google Drive API</li>
+                    <li>Google Calendar API</li>
+                </ul>
+                <p>These services operate under Google's own privacy policies.</p>
 
-<li>Google Account – used only for optional Google Drive backup</li>
+                <h2>10. User Control</h2>
+                <p>Users have full control over their data. Users can:</p>
+                <ul>
+                    <li>Delete their data</li>
+                    <li>Disable cloud backup</li>
+                    <li>Disable calendar integration</li>
+                    <li>Disable notifications</li>
+                </ul>
 
-</ul>
+                <h2>11. Children's Privacy</h2>
+                <p>Cash Note does not knowingly collect personal information from children.</p>
 
-<p>
-Users can disable these permissions anytime from the app settings.
-</p>
+                <h2>12. Changes to This Policy</h2>
+                <p>This privacy policy may be updated in the future. Updates will be reflected on this page.</p>
 
-<p>
-For questions contact: apps.mtkf@gmail.com
-</p>
+                <h2>13. Contact</h2>
+                <p>For questions regarding this privacy policy, contact:<br>
+                <strong>Developer Email:</strong> <a href="mailto:mtkf.apps@gmail.com">mtkf.apps@gmail.com</a></p>
+            </div>
+        </section>
+    </main>
 
-</section>
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="Cash Note Logo">
+                Cash Note
+            </div>
+            
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="walkthrough.html">App Walkthrough</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            
+            <p class="copyright">&copy; 2026 Cash Note. All rights reserved.</p>
+        </div>
+    </footer>
 
-<footer>
-
-<p>
-© 2026 Cash Note
-</p>
-
-</footer>
-
+    <script src="js/main.js"></script>
 </body>
 </html>

@@ -1,72 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Cash Note Walkthrough</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Walkthrough - Cash Note</title>
+    <meta name="description" content="Take a tour of Cash Note. Learn how to manage accounts, split bills, and track your money effortlessly.">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/fevicon.png">
 </head>
-
 <body>
 
-<nav>
-<div class="nav-container">
-<div class="logo">Cash Note</div>
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <img src="assets/logo.png" alt="Cash Note Logo">
+                Cash Note
+            </a>
+            
+            <div class="nav-controls">
+                <button class="mobile-menu-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="walkthrough.html" class="active">Walkthrough</a>
+                <a href="privacy.html">Privacy Policy</a>
+                <button class="theme-toggle" aria-label="Toggle dark/light mode">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
 
-<div class="nav-links">
-<a href="index.html">Home</a>
-<a href="walkthrough.html">Walkthrough</a>
-<a href="privacy.html">Privacy</a>
-<a href="mailto:apps.mtkf@gmail.com">Contact</a>
-</div>
-</div>
-</nav>
+    <main>
+        <section class="container">
+            <div class="walkthrough-header">
+                <h1 style="font-size: 3rem; margin-bottom: 1rem;">Explore Cash Note</h1>
+                <p style="color: var(--text-muted); font-size: 1.25rem; max-width: 600px; margin: 0 auto;">
+                    Take a detailed look at the app's features through these guided screenshots. Learn how to make the most of your pocket manager.
+                </p>
+            </div>
 
-<section>
+            <div class="walkthrough-grid">
+                <!-- Step 1 -->
+                <div class="step-card">
+                    <div class="step-image-wrap">
+                        <img src="assets/screenshots/Account & Debt Page/dark/1.png" alt="Account and Debt Dashboard" class="step-image">
+                    </div>
+                    <div class="step-info">
+                        <h3>Accounts & Debts</h3>
+                        <p>View all your cash locations at a glance. Manage multiple wallets, cards, and see exactly who owes you money or who you owe.</p>
+                    </div>
+                </div>
 
-<div class="section-title">
-<h2>App Walkthrough</h2>
-<p>Explore how Cash Note works</p>
-</div>
+                <!-- Step 2 -->
+                <div class="step-card">
+                    <div class="step-image-wrap">
+                        <img src="assets/screenshots/Transaction Page/dark/1.png" alt="Adding a Transaction" class="step-image">
+                    </div>
+                    <div class="step-info">
+                        <h3>Quick Transactions</h3>
+                        <p>Adding an income or expense takes just seconds. Select your category, account, and enter the amount effortlessly with a clean UI.</p>
+                    </div>
+                </div>
 
-<div class="gallery">
+                <!-- Step 3 -->
+                <div class="step-card">
+                    <div class="step-image-wrap">
+                        <img src="assets/screenshots/Money Flow Page/dark/1.png" alt="Money Flow Analytics" class="step-image">
+                    </div>
+                    <div class="step-info">
+                        <h3>Money Flow</h3>
+                        <p>Understand where your money is going. Visual charts and breakdowns help you analyze your spending habits over time.</p>
+                    </div>
+                </div>
 
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Dashboard overview of your accounts and balances.</p>
-</div>
+                <!-- Step 4 -->
+                <div class="step-card">
+                    <div class="step-image-wrap">
+                        <img src="assets/screenshots/Split Page/dark/1.png" alt="Splitting Bills" class="step-image">
+                    </div>
+                    <div class="step-info">
+                        <h3>Split the Bill</h3>
+                        <p>Easily divide expenses when eating out with friends or splitting rent. Track everyone's share and settle up seamlessly.</p>
+                    </div>
+                </div>
 
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Add expenses quickly with a minimal interface.</p>
-</div>
+                <!-- Step 5 -->
+                <div class="step-card">
+                    <div class="step-image-wrap">
+                        <img src="assets/screenshots/Reminder Page/dark/1.png" alt="Reminders System" class="step-image">
+                    </div>
+                    <div class="step-info">
+                        <h3>Smart Reminders</h3>
+                        <p>Never miss a payment again. Set custom reminders that can even sync to your Google Calendar automatically.</p>
+                    </div>
+                </div>
 
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Split expenses and track balances easily.</p>
-</div>
+                <!-- Step 6 -->
+                <div class="step-card">
+                    <div class="step-image-wrap">
+                        <img src="assets/screenshots/Settings & Backup/dark/1.png" alt="Settings and Backup" class="step-image">
+                    </div>
+                    <div class="step-info">
+                        <h3>Settings & Security</h3>
+                        <p>Your data stays on your device. Configure offline backups or securely connect your Google Drive to keep your backups safe.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 5rem;">
+                <h3 style="margin-bottom: 2rem;">Ready to take control of your finances?</h3>
+                <a href="#" class="btn btn-primary"><i class="fa-brands fa-google-play"></i> Get it on Play Store</a>
+            </div>
+        </section>
+    </main>
 
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Reminder system for bills and payments.</p>
-</div>
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-logo">
+                <img src="assets/logo.png" alt="Cash Note Logo">
+                Cash Note
+            </div>
+            
+            <div class="footer-links">
+                <a href="index.html">Home</a>
+                <a href="walkthrough.html">App Walkthrough</a>
+                <a href="privacy.html">Privacy Policy</a>
+            </div>
+            
+            <p class="copyright">&copy; 2026 Cash Note. All rights reserved.</p>
+        </div>
+    </footer>
 
-<div class="phone">
-<img src="https://via.placeholder.com/450x800">
-<p>Backup and restore using Google Drive.</p>
-</div>
-
-</div>
-
-</section>
-
-<footer>
-
-<p>
-© 2026 Cash Note
-</p>
-
-</footer>
-
+    <script src="js/main.js"></script>
 </body>
 </html>
